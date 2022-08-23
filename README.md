@@ -12,9 +12,7 @@ Le istanze dei quattro problemi sono già presenti nel file main, inseieme alle 
 La sequenza di operazioni per replicare i risultati è la seguente:
 1) Definire un ArrayList e inserirvi i valori del dominio.
 2) Aggiungere le variabili desiderate
-3) Istanziare un oggetto della classe a scelta tra: Sudoku e MapColoring
-3.5) Se si fosse scelto MapColoring aggiungere anche i vincoli tramite il metodo addEdge()
-Nota: addEdge() richiede un parametro int. Quindi si deve tener contro del valore associato a ciascun delle variabili istanziate: La prima che è stata inserita sarà la numero 0, la seconda la numero 1 ecc...
+3) Istanziare un oggetto della classe a scelta tra: Sudoku e MapColoring. Se si fosse scelto MapColoring aggiungere anche i vincoli tramite il metodo addEdge(). Nota: addEdge() richiede un parametro int. Quindi si deve tener contro del valore associato a ciascun delle variabili istanziate: La prima che è stata inserita sarà la numero 0, la seconda la numero 1 ecc...
 4)Usare il metodo cercaNodo per trovare i cycleset.
 5)Invocare il metodo solveCycleGraph.
 6)Invocare topologicalSort().
